@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Banking-With-CppCreditUnion/Debug
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/v17/Browse.VC.opendb
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/v17/Browse.VC.db-wal
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/v17/Browse.VC.db-shm
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/v17/Browse.VC.db
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/v17/.suo
+*.ipch
+*.vsidx
+/Banking-With-CppCreditUnion/.vs/Banking-With-CppCreditUnion/FileContentIndex/b7bbe5fb-96e2-40fb-9db1-4609ba7692df.vsidx
+*.lock

@@ -13,6 +13,14 @@ enum AccountType {
 	STUDENT_LOAN
 };
 
+enum AdminLevel
+{
+	ADMIN_LEVEL,			//Can do anything (Open Accounts as Admin)
+	BANKER_LEVEL,			//Can add/subtract balance, and view account details
+	MEMBER_LEVEL,			//Can View Account Info
+	NONE_LEVEL				//Need to validate account to elevate privledge
+};
+
 struct AccountUserData
 {
 	int				m_iBankAccountID;

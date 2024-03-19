@@ -1,8 +1,7 @@
 #pragma once
 
 #include <string>
-
-#define USHORT unsigned short
+#include "Constants.h"
 
 class ATMDialog
 {
@@ -19,11 +18,13 @@ public:
 	void SetCustomerMode();
 
 	//Main ATM Functions
-
-
+	void ValidateAdminLogon();
+	void ValidateBankerLogon();
+	void ValidateAccountHolderLogon();
+	void ExitBank();
 
 private:
-	USHORT m_usUserLevel;
+	AdminLevel m_enumAdminLevel;
 
 };
 

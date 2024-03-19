@@ -12,7 +12,12 @@
 
 AccountInfo::AccountInfo()
 {
-	m_userCurrentUser = { -1, "EMPTY", "EMPTY", "mm/dd/yyyy", "mm/dd/yyyy", INVALID, 0.0, 0.0 };
+	m_structCurrentUser = { -1, "EMPTY", "EMPTY", "mm/dd/yyyy", "mm/dd/yyyy", INVALID, 0.0, 0.0 };
+}
+
+AccountInfo::~AccountInfo()
+{
+	
 }
 
 /////////////////////////////
@@ -23,7 +28,7 @@ int AccountInfo::GetAccountID()
 	return m_structCurrentUser.m_iBankAccountID;
 }
 
-std::string AccountInfo::GetName(USHORT _NameType = 0)		//0 for Fullname, 1 for FirstName, 2 for LastName
+std::string AccountInfo::GetName(USHORT _NameType)		//0 for Fullname, 1 for FirstName, 2 for LastName
 {
 	return m_structCurrentUser.m_sLastName + ", " + m_structCurrentUser.m_sFirstName;
 }
@@ -61,7 +66,7 @@ void AccountInfo::SetAccountID(int _acctID)
 	m_structCurrentUser.m_iBankAccountID = _acctID;
 }
 
-void AccountInfo::SetName(std::string _FName = "-1", std::string _LName = "-1")
+void AccountInfo::SetName(std::string _FName, std::string _LName)
 {
 	if (_FName.compare("-1") != 0)
 	{

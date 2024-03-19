@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Constants.h"
-#include <string>
 
 class AccountInfo
 {
@@ -20,7 +19,7 @@ public:
 
 	//Set Functions
 	void SetAccountID(int _acctID);
-	void SetName(std::string _FName = nullptr, std::string _LName = nullptr);
+	void SetName(std::string _FName = "-1", std::string _LName = "-1");
 	void SetDOB(std::string _DOB);
 	void SetAccountOpenDate(std::string _OpenDate);
 	void SetAccountType(AccountType _AccountType);

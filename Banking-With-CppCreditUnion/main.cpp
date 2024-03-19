@@ -3,7 +3,6 @@
 #include "constants.h"
 #include "DisplayText.h"
 
-
 int main()
 {
 	//Allows us to start us with Welcome Screen

@@ -1,4 +1,29 @@
 #pragma once
+#include <string>
+
+#define USHORT unsigned short
+
+// Define a Enumeration for Account Types
+enum AccountType {
+	INVALID,
+	CHECKING,
+	SAVINGS,
+	CREDIT_CARD,
+	PERSONAL_LOAN,
+	STUDENT_LOAN
+};
+
+struct AccountUserData
+{
+	int				m_iBankAccountID;
+	std::string		m_sFirstName;
+	std::string		m_sLastName;
+	std::string		m_sDOB;
+	std::string		m_sAccountOpenDate;
+	AccountType		m_enumAccountType;
+	long double		m_ldBalanceTotal;
+	double			m_dInterestRate;
+};
 
 namespace TEXT
 {

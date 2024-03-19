@@ -10,11 +10,15 @@
 #include "ATMDialog.h"
 #include <iostream>
 
+#include "FileNames.h"
+
+#include <fstream>
+
 using namespace std;
 
 ATMDialog::ATMDialog()
 {
-	m_enumAdminLevel = NONE_LEVEL;
+	m_enumUserLevel = NONE_LEVEL;
 }
 
 ATMDialog::~ATMDialog()
@@ -27,7 +31,7 @@ void ATMDialog::OptionsScreen()
 	short userSelection = 0;
 	bool validResponse = false;
 
-	if (m_enumAdminLevel == NONE_LEVEL)
+	if (m_enumUserLevel == NONE_LEVEL)
 	{
 		cout << "Select Your Options Below" << endl;
 		cout << "1 - ADMIN LOGON" << endl;
@@ -49,16 +53,20 @@ void ATMDialog::OptionsScreen()
 			{
 			case 1:
 				ValidateAdminLogon();
-				return;
+				validResponse = false;
+				break;
 			case 2:
 				ValidateBankerLogon();
-				return;
+				validResponse = false;
+				break;
 			case 3:
 				ValidateAccountHolderLogon();
-				return;
+				validResponse = false;
+				break;
 			case 9:
 				ExitBank();
-				return;
+				validResponse = false;
+				break;
 			default:
 				cout << "Invalid Option!" << endl;
 				validResponse = false;
@@ -72,12 +80,29 @@ void ATMDialog::OptionsScreen()
 
 void ATMDialog::ValidateAdminLogon()
 {
-	cout << "ADMIN LOGON NEEDS CODING!" << endl;
+	if (ValidatePasswordFromFile(ADMIN_PASS_FILE))
+	{
+		m_enumUserLevel = ADMIN_LEVEL;
+		cout << "Admin Level Enabled" << endl;
+	}
+	else
+	{
+		cout << "Admin Level DENIED!" << endl;
+	}
 }
 
 void ATMDialog::ValidateBankerLogon()
 {
 	cout << "BANKER LOGON NEEDS CODING!" << endl;
+	if (ValidatePasswordFromFile(BANKER_PASS_FILE))
+	{
+		m_enumUserLevel = BANKER_LEVEL;
+		cout << "Banker Level Enabled" << endl;
+	}
+	else
+	{
+		cout << "Banker Level DENIED!" << endl;
+	}
 }
 
 void ATMDialog::ValidateAccountHolderLogon()
@@ -88,4 +113,48 @@ void ATMDialog::ValidateAccountHolderLogon()
 void ATMDialog::ExitBank()
 {
 	cout << "THANK YOU FOR VISITING CPP CREDIT UNION" << endl;
+}
+
+bool ATMDialog::ValidatePasswordFromFile(std::string _Path)
+{
+	//File for Writing
+	// If file does not exist create it with my default password
+	ofstream writeFileData(DATA_FOLDER + _Path);		//outdata is like cin
+	if (!writeFileData)
+	{
+		cout << "Credentials Not Setup" << endl;
+		writeFileData.open(DATA_FOLDER + _Path);
+		writeFileData << ADMIN_PASSWORD << endl;
+		cout << "Default Admin Password Created" << endl;
+	}
+	writeFileData.close();
+
+	//File for Reading
+	// Grab the Password (if they changed it then it wont have the default)
+	ifstream readFileData(DATA_FOLDER + _Path);
+	std::string data;
+	readFileData >> data;
+	readFileData.close();
+
+	//Give them 3 attempts then we back out
+	bool PassAccepted = false;
+	for(int Attempts = 3; Attempts != 0 && PassAccepted != true; Attempts--)
+	{
+		std::string inputPassword;
+		cout << "Please Enter Admin Password: ";
+		cin >> inputPassword;
+		if (data.compare(inputPassword) != 0)
+		{
+			cout << "Password Incorrect." << endl;
+			cout << Attempts-1 << " Attempts Left" << endl;
+		}
+		else
+		{
+			cout << "Password Accepted!" << endl;
+			PassAccepted = true;
+		}
+	}
+
+	return PassAccepted;
+
 }

@@ -23,8 +23,10 @@ public:
 	void ValidateAccountHolderLogon();
 	void ExitBank();
 
+	bool ValidatePasswordFromFile(std::string _Path);
+
 private:
-	AdminLevel m_enumAdminLevel;
+	AdminLevel m_enumUserLevel;
 
 };
 

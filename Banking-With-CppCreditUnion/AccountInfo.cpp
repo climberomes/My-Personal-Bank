@@ -25,7 +25,7 @@ AccountInfo::~AccountInfo()
 /////////////////////////////
 int AccountInfo::GetAccountID() 
 {
-	return m_structCurrentUser.m_iBankAccountID;
+	return m_structCurrentUser.m_lBankAccountID;
 }
 
 std::string AccountInfo::GetName(USHORT _NameType)		//0 for Fullname, 1 for FirstName, 2 for LastName
@@ -63,7 +63,7 @@ double AccountInfo::GetInterestRate()
 /////////////////////////////
 void AccountInfo::SetAccountID(int _acctID)
 {
-	m_structCurrentUser.m_iBankAccountID = _acctID;
+	m_structCurrentUser.m_lBankAccountID = _acctID;
 }
 
 void AccountInfo::SetName(std::string _FName, std::string _LName)

@@ -131,12 +131,14 @@
     <ClInclude Include="AccountInfo.h" />
     <ClInclude Include="ATMDialog.h" />
     <ClInclude Include="Constants.h" />
+    <ClInclude Include="CSVInterface.h" />
     <ClInclude Include="DisplayText.h" />
     <ClInclude Include="FileNames.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AccountInfo.cpp" />
     <ClCompile Include="ATMDialog.cpp" />
+    <ClCompile Include="CSVInterface.cpp" />
     <ClCompile Include="DisplayText.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

@@ -2,6 +2,8 @@
 #include <string>
 
 #define USHORT unsigned short
+#define ACCOUNT_TYPE_CAST(value) static_cast<AccountType>(value)		//static_cast<AccountType>((int)1)
+#define ADMIN_LEVEL_CAST(value) static_cast<AdminLevel>(value)			//static_cast<AdminLevel>((int)1)
 
 // Define a Enumeration for Account Types
 enum AccountType {
@@ -13,6 +15,7 @@ enum AccountType {
 	STUDENT_LOAN
 };
 
+
 enum AdminLevel
 {
 	ADMIN_LEVEL,			//Can do anything (Open Accounts as Admin)
@@ -23,7 +26,7 @@ enum AdminLevel
 
 struct AccountUserData
 {
-	int				m_iBankAccountID;
+	long			m_lBankAccountID;
 	std::string		m_sFirstName;
 	std::string		m_sLastName;
 	std::string		m_sDOB;

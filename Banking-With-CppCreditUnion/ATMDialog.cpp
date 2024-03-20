@@ -7,27 +7,36 @@
 // Description: Function used to accept ATM input from customer
 //
 
-#include "ATMDialog.h"
 #include <iostream>
+#include <fstream>
 
 #include "FileNames.h"
-
-#include <fstream>
+#include "ATMDialog.h"
 
 using namespace std;
 
+//////////////////
+//Constructor
+//////////////////
 ATMDialog::ATMDialog()
 {
 	m_enumUserLevel = NONE_LEVEL;
 }
 
+//////////////////
+//Destructor
+//////////////////
 ATMDialog::~ATMDialog()
 {
 
 }
 
+//////////////////
+//Public Member Functions
+//////////////////
 void ATMDialog::OptionsScreen()
 {
+	//Display Options screen and process user input
 	bool validResponse = false;
 	bool exitBank = false;
 
@@ -38,7 +47,6 @@ void ATMDialog::OptionsScreen()
 		cout << "2 - BANKER LOGON" << endl;
 		cout << "3 - USER LOGON" << endl;
 		cout << "9 - EXIT SYSTEM" << endl;
-
 		do
 		{
 			switch (CheckUserInput())
@@ -65,10 +73,8 @@ void ATMDialog::OptionsScreen()
 				validResponse = false;
 				break;
 			}
-
 		} while (!exitBank);
 	}
-	
 }
 
 void ATMDialog::ValidateAdminLogon()
@@ -136,6 +142,9 @@ bool ATMDialog::ValidatePasswordFromFile(std::string _Path, std::string _Default
 	return PassAccepted;
 }
 
+//////////////////
+//Private Member Functions
+//////////////////
 short ATMDialog::CheckUserInput()
 {
 	short userInput;

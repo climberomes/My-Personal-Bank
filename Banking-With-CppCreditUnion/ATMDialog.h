@@ -28,6 +28,7 @@ public:
 private:
 	AdminLevel m_enumUserLevel;
 
+	short CheckUserInput();
 	void CheckPasswordFile(std::string fileName, std::string _DefaultPass);
 	bool CheckPasswordFileEmpty(std::string fileName, std::string& _Response);
 	std::string GetPasswordFileData(std::string fileName);

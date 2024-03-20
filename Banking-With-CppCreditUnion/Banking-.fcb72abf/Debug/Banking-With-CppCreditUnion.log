@@ -1,2 +1,6 @@
-﻿  ATMDialog.cpp
+﻿  AccountInfo.cpp
+  ATMDialog.cpp
+  DisplayText.cpp
+  main.cpp
+  Generating Code...
   Banking-With-CppCreditUnion.vcxproj -> C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\Debug\Banking-With-CppCreditUnion.exe

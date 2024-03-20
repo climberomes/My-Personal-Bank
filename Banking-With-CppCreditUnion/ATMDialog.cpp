@@ -28,8 +28,8 @@ ATMDialog::~ATMDialog()
 
 void ATMDialog::OptionsScreen()
 {
-	short userSelection = 0;
 	bool validResponse = false;
+	bool exitBank = false;
 
 	if (m_enumUserLevel == NONE_LEVEL)
 	{
@@ -41,31 +41,24 @@ void ATMDialog::OptionsScreen()
 
 		do
 		{
-			cout << endl << "Your Option: ";
-			cin >> userSelection;
-
-			if (cin.fail())
-			{
-				userSelection = 0;
-			}
-
-			switch (userSelection)
+			switch (CheckUserInput())
 			{
 			case 1:
 				ValidateAdminLogon();
-				validResponse = false;
+				validResponse = true;
 				break;
 			case 2:
 				ValidateBankerLogon();
-				validResponse = false;
+				validResponse = true;
 				break;
 			case 3:
 				ValidateAccountHolderLogon();
-				validResponse = false;
+				validResponse = true;
 				break;
 			case 9:
 				ExitBank();
-				validResponse = false;
+				validResponse = true;
+				exitBank = true;
 				break;
 			default:
 				cout << "Invalid Option!" << endl;
@@ -73,7 +66,7 @@ void ATMDialog::OptionsScreen()
 				break;
 			}
 
-		} while (!validResponse);
+		} while (!exitBank);
 	}
 	
 }
@@ -141,6 +134,26 @@ bool ATMDialog::ValidatePasswordFromFile(std::string _Path, std::string _Default
 	}
 
 	return PassAccepted;
+}
+
+short ATMDialog::CheckUserInput()
+{
+	short userInput;
+	cout << endl << "Your Option: ";
+	cin >> userInput;
+
+	if (cin.good())
+	{
+		return userInput;
+	}
+	else
+	{
+		//something went wrong, we reset the buffer's state to good
+		cin.clear();
+		//and empty it
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		return 0;
+	}
 }
 
 void ATMDialog::CheckPasswordFile(std::string fileName, std::string _DefaultPass)

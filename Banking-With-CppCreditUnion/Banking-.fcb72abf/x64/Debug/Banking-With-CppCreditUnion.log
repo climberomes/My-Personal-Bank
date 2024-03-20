@@ -1,0 +1,19 @@
+﻿  DisplayText.cpp
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\DisplayText.h(12,33): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'DisplayText.cpp')
+  C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\predefined C++ types (compiler internal)(348,11):
+  see declaration of 'std'
+  
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\DisplayText.h(12,33): error C2061: syntax error: identifier 'string'
+  (compiling source file 'DisplayText.cpp')
+  
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\DisplayText.cpp(23,19): error C2511: 'void DisplayText::OutputWelcomeMessage(std::string)': overloaded member function not found in 'DisplayText'
+  C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\DisplayText.h(3,7):
+  see declaration of 'DisplayText'
+  
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\DisplayText.cpp(27,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+  main.cpp
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\main.cpp(10,2): error C3861: 'setTerminalTextColor': identifier not found
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\main.cpp(11,2): error C3861: 'printEntry': identifier not found
+C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\main.cpp(14,2): error C3861: 'printColorClear': identifier not found
+  Generating Code...

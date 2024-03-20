@@ -1,12 +1,171 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\1 - Omar Alhayek\\Personal\\Banking With CppCreditUnion\\Banking-With-CppCreditUnion\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:ATMDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:ATMDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:AccountInfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:FileNames.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:AccountInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:DisplayText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:DisplayText.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ATMDialog.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.h",
+              "RelativeDocumentMoniker": "ATMDialog.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.h",
+              "RelativeToolTip": "ATMDialog.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T16:47:44.352Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ATMDialog.cpp",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.cpp",
+              "RelativeDocumentMoniker": "ATMDialog.cpp",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\ATMDialog.cpp",
+              "RelativeToolTip": "ATMDialog.cpp",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAswMIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T16:48:19.943Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountInfo.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.h",
+              "RelativeDocumentMoniker": "AccountInfo.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.h",
+              "RelativeToolTip": "AccountInfo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T17:08:35.878Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountInfo.cpp",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.cpp",
+              "RelativeDocumentMoniker": "AccountInfo.cpp",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountInfo.cpp",
+              "RelativeToolTip": "AccountInfo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T17:44:05.232Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
+              "RelativeDocumentMoniker": "Constants.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
+              "RelativeToolTip": "Constants.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T17:39:31.611Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileNames.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h",
+              "RelativeDocumentMoniker": "FileNames.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h",
+              "RelativeToolTip": "FileNames.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T21:22:37.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DisplayText.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.h",
+              "RelativeDocumentMoniker": "DisplayText.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.h",
+              "RelativeToolTip": "DisplayText.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-19T16:49:33.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DisplayText.cpp",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.cpp",
+              "RelativeDocumentMoniker": "DisplayText.cpp",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.cpp",
+              "RelativeToolTip": "DisplayText.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T16:48:21.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T16:35:32.247Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

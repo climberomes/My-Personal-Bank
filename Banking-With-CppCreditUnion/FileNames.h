@@ -9,4 +9,5 @@ const std::string DATA_FOLDER = FILE_DIRECTORY + "DataFolder\\";
 const std::string ADMIN_PASS_FILE = "AdminPass.dat";
 const std::string BANKER_PASS_FILE = "BankerPass.dat";
 
-const std::string ADMIN_PASSWORD = "Pass123";
+const std::string ADMIN_PASSWORD = "APass123";
+const std::string BANKER_PASSWORD = "BPass123";

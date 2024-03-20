@@ -171,10 +171,8 @@ void ATMDialog::CheckPasswordFile(std::string fileName, std::string _DefaultPass
 
 bool ATMDialog::CheckPasswordFileEmpty(std::string fileName, std::string& _Response)
 {
-	//Fetch the Password from the file
 	std::string passFromFile = GetPasswordFileData(fileName);
 
-	//Verify password is valid (not empty)
 	if (passFromFile.empty())
 	{
 		cout << "Password File Empty. Unable to LogOn" << endl;
@@ -192,7 +190,6 @@ bool ATMDialog::CheckPasswordFileEmpty(std::string fileName, std::string& _Respo
 	}
 	else
 	{
-		//if valid send it back
 		_Response = passFromFile;
 		return true;
 	}
@@ -200,7 +197,8 @@ bool ATMDialog::CheckPasswordFileEmpty(std::string fileName, std::string& _Respo
 
 std::string ATMDialog::GetPasswordFileData(std::string fileName)
 {
-	// Grab the first line from the file name passed through
+	//File for Reading
+	// Grab the Password (if they changed it then it wont have the default)
 	ifstream readFileData(fileName);
 	std::string data;
 	readFileData >> data;

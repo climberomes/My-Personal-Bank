@@ -23,10 +23,13 @@ public:
 	void ValidateAccountHolderLogon();
 	void ExitBank();
 
-	bool ValidatePasswordFromFile(std::string _Path);
+	bool ValidatePasswordFromFile(std::string _Path, std::string _DefaultPass);
 
 private:
 	AdminLevel m_enumUserLevel;
 
+	void CheckPasswordFile(std::string fileName, std::string _DefaultPass);
+	bool CheckPasswordFileEmpty(std::string fileName, std::string& _Response);
+	std::string GetPasswordFileData(std::string fileName);
 };
 

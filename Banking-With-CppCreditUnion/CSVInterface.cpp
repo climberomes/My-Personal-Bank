@@ -35,7 +35,7 @@ bool CSVInterface::WriteDataToCSV(std::string _CSVFilePath, AccountUserData _use
                 << "m_sAccountOpenDate" << ", "
                 << "m_enumAccountType" << ","
                 << "m_ldBalanceTotal" << ","
-                << "m_dInterestRate" << ",";
+                << "m_dInterestRate" << endl;
 
             writeHeaderData.close();
 
@@ -49,24 +49,31 @@ bool CSVInterface::WriteDataToCSV(std::string _CSVFilePath, AccountUserData _use
 
     if (fileExists)
     {
-        ofstream writeFileData(_CSVFilePath);
-        if (writeFileData.is_open())
+        if(!FindInCSV(_CSVFilePath, _userDataToAdd.m_lBankAccountID, *(new AccountUserData)))
         {
-            //add data
-            writeFileData << _userDataToAdd.m_lBankAccountID << ","
-                << _userDataToAdd.m_sFirstName << ","
-                << _userDataToAdd.m_sLastName << ","
-                << _userDataToAdd.m_sDOB << ","
-                << _userDataToAdd.m_sAccountOpenDate << ","
-                << (int)_userDataToAdd.m_enumAccountType << ","
-                << _userDataToAdd.m_ldBalanceTotal << ","
-                << _userDataToAdd.m_dInterestRate << ",";
+            ofstream writeFileData(_CSVFilePath, std::ios::app);
+            if (writeFileData.is_open())
+            {
+                //add data
+                writeFileData << _userDataToAdd.m_lBankAccountID << ","
+                    << _userDataToAdd.m_sFirstName << ","
+                    << _userDataToAdd.m_sLastName << ","
+                    << _userDataToAdd.m_sDOB << ","
+                    << _userDataToAdd.m_sAccountOpenDate << ","
+                    << _userDataToAdd.m_enumAccountType << ","
+                    << (int) (_userDataToAdd.m_dBalanceTotal * 100.0) << ","
+                    << _userDataToAdd.m_dInterestRate << endl;
 
-            userDataSaved = true;
+                userDataSaved = true;
+            }
+            else
+            {
+                cout << "Error: Unable to create file" << endl;
+            }
         }
         else
         {
-            cout << "Error: Unable to create file" << endl;
+            cout << "User is already registered in the System!" << endl;
         }
     }
 
@@ -83,7 +90,7 @@ bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, Account
     while (std::getline(CSVFile, line))
     {
         std::istringstream CSVFileLine(line);
-        vector<std::string> strReturnedData;
+        vector<std::string> strReturnedData(ACCOUNT_USER_DATA_SIZE);
 
         //Find the account ID first.
         //if account ID is found then gather the rest of the data
@@ -110,7 +117,7 @@ bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, Account
                 userDataFound.m_sDOB = strReturnedData[3];
                 userDataFound.m_sAccountOpenDate = strReturnedData[4];
                 userDataFound.m_enumAccountType = (AccountType) (stoi(strReturnedData[4]));
-                userDataFound.m_ldBalanceTotal = std::strtold(strReturnedData[6].c_str(), NULL);
+                userDataFound.m_dBalanceTotal = std::strtod(strReturnedData[6].c_str(), NULL) / 100.0;
                 userDataFound.m_dInterestRate = std::strtod(strReturnedData[7].c_str(), NULL);
 
                 _userDataFound = userDataFound;

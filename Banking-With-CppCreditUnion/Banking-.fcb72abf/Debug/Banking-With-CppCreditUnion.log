@@ -1,7 +1,2 @@
-﻿  AccountInfo.cpp
-  ATMDialog.cpp
-  CSVInterface.cpp
-  DisplayText.cpp
-  main.cpp
-  Generating Code...
+﻿  CSVInterface.cpp
   Banking-With-CppCreditUnion.vcxproj -> C:\1 - Omar Alhayek\Personal\My-Personal-Bank\Banking-With-CppCreditUnion\Debug\Banking-With-CppCreditUnion.exe

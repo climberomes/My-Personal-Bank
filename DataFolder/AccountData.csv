@@ -1,0 +1,2 @@
+m_iBankAccountID,m_sFirstName,m_sLastName,m_sDOB,m_sAccountOpenDate, m_enumAccountType,m_ldBalanceTotal,m_dInterestRate
+123456,BobDa,Buildah,12/15/2000,08/10/2024,2,1234567800,0.05

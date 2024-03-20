@@ -97,7 +97,7 @@ void AccountInfo::SetAccountType(AccountType _AccountType)
 void AccountInfo::SetAccountBalance(long double _Balance)
 {
 	//Will only be accessible by User-level Bank Operator or Admin
-	m_structCurrentUser.m_ldBalanceTotal = _Balance;
+	m_structCurrentUser.m_dBalanceTotal = _Balance;
 }
 
 void AccountInfo::SetInterestRate(double _Rate)
@@ -117,7 +117,7 @@ void AccountInfo::SubtractAmountToAccount(int _TransactionAmount)
 	//Amount needs to be positive to work
 	if (_TransactionAmount > 0)
 	{
-		m_structCurrentUser.m_ldBalanceTotal -= _TransactionAmount;
+		m_structCurrentUser.m_dBalanceTotal -= _TransactionAmount;
 	}
 }
 
@@ -126,6 +126,6 @@ void AccountInfo::AddAmountToAccount(int _TransactionAmount)
 	//Amount needs to be positive to work
 	if (_TransactionAmount > 0)
 	{
-		m_structCurrentUser.m_ldBalanceTotal += _TransactionAmount;
+		m_structCurrentUser.m_dBalanceTotal += _TransactionAmount;
 	}
 }

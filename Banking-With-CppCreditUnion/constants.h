@@ -21,7 +21,7 @@ enum AdminLevel
 	ADMIN_LEVEL,			//Can do anything (Open Accounts as Admin)
 	BANKER_LEVEL,			//Can add/subtract balance, and view account details
 	MEMBER_LEVEL,			//Can View Account Info
-	NONE_LEVEL				//Need to validate account to elevate privledge
+	NONE_LEVEL				//Need to validate account to elevate privilege
 };
 
 struct AccountUserData
@@ -32,9 +32,11 @@ struct AccountUserData
 	std::string		m_sDOB;
 	std::string		m_sAccountOpenDate;
 	AccountType		m_enumAccountType;
-	long double		m_ldBalanceTotal;
+	double			m_dBalanceTotal;
 	double			m_dInterestRate;
 };
+
+const int ACCOUNT_USER_DATA_SIZE = 8;
 
 namespace TEXT
 {

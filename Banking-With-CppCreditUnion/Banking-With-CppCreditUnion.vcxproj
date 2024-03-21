@@ -128,19 +128,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AccountInfo.h" />
-    <ClInclude Include="ATMDialog.h" />
+    <ClInclude Include="BankDialog.h" />
+    <ClInclude Include="BankOperations.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="CSVInterface.h" />
     <ClInclude Include="DisplayText.h" />
     <ClInclude Include="FileNames.h" />
+    <ClInclude Include="LevelAdmin.h" />
+    <ClInclude Include="LevelBanker.h" />
+    <ClInclude Include="LevelUser.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AccountInfo.cpp" />
-    <ClCompile Include="ATMDialog.cpp" />
+    <ClCompile Include="BankDialog.cpp" />
+    <ClCompile Include="BankOperations.cpp" />
     <ClCompile Include="CSVInterface.cpp" />
     <ClCompile Include="DisplayText.cpp" />
+    <ClCompile Include="LevelAdmin.cpp" />
+    <ClCompile Include="LevelBanker.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="LevelUser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,10 +3,7 @@
 #include "Constants.h"
 #include "DisplayText.h"
 
-#include "ATMDialog.h"
-#include "CSVInterface.h"
-
-#include "FileNames.h"
+#include "BankDialog.h"
 
 int main()
 {
@@ -17,9 +14,10 @@ int main()
 
 	//system("cls");
 
-	//ATMDialog OpenBankDialog;
-	//OpenBankDialog.OptionsScreen();
+	BankDialog OpenBankDialog;
+	OpenBankDialog.OptionsScreen();
 
+	/*
 	CSVInterface myCSVInterface;
 
 	AccountUserData m_structCurrentUser = { (long)123456, "BobDa", "Buildah", "12/15/2000", "08/10/2024", SAVINGS, (long double) 12345678.00, 0.05 };
@@ -30,10 +28,18 @@ int main()
 	std::cout << "Creating CSV Stuff" << std::endl;
 	myCSVInterface.WriteDataToCSV((DATA_FOLDER + ACCOUNT_DATA_FILE), m_structCurrentUser);
 
+
+
+	std::cout << "Account Number To Find: " << std::endl;
+	int accountNum;
+	std::cin >> accountNum;
+
 	std::cout << "Find Account" << std::endl;
-	myCSVInterface.FindInCSV((DATA_FOLDER + ACCOUNT_DATA_FILE), 123456, m_structFindUserData);
+	myCSVInterface.FindInCSV((DATA_FOLDER + ACCOUNT_DATA_FILE), accountNum, m_structFindUserData);
 
 	std::cout << std::to_string(m_structFindUserData.m_dBalanceTotal) << std::endl;
+	*/
+
 
 	TextOutput.ClearTextSettings();
 	return 0;

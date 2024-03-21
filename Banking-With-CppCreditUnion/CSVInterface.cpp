@@ -1,11 +1,4 @@
 #include "CSVInterface.h"
-#include "FileNames.h"
-
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <string>
-#include <cstdlib>
 
 using namespace std;
 
@@ -49,7 +42,7 @@ bool CSVInterface::WriteDataToCSV(std::string _CSVFilePath, AccountUserData _use
 
     if (fileExists)
     {
-        if(!FindInCSV(_CSVFilePath, _userDataToAdd.m_lBankAccountID, *(new AccountUserData)))
+        if(!FindInCSV(_CSVFilePath, _userDataToAdd.m_lBankAccountID))
         {
             ofstream writeFileData(_CSVFilePath, std::ios::app);
             if (writeFileData.is_open())
@@ -80,7 +73,7 @@ bool CSVInterface::WriteDataToCSV(std::string _CSVFilePath, AccountUserData _use
     return userDataSaved;
 }
 
-bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, AccountUserData &_userDataFound)
+bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, AccountUserData* _userDataFound)
 {
     bool accountFound = false;
 
@@ -102,13 +95,10 @@ bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, Account
             {
                 std::cout << "Account ID: " << _bankAcctID << " is found!" << '\n';
 
-                std::getline(CSVFileLine, strReturnedData[1], ',');
-                std::getline(CSVFileLine, strReturnedData[2], ',');
-                std::getline(CSVFileLine, strReturnedData[3], ',');
-                std::getline(CSVFileLine, strReturnedData[4], ',');
-                std::getline(CSVFileLine, strReturnedData[5], ',');
-                std::getline(CSVFileLine, strReturnedData[6], ',');
-                std::getline(CSVFileLine, strReturnedData[7], ',');
+                for (int i = 1; i < ACCOUNT_USER_DATA_SIZE; i++)
+                {
+                    std::getline(CSVFileLine, strReturnedData[i], ',');
+                }
 
                 AccountUserData userDataFound;
                 userDataFound.m_lBankAccountID = ldReturnedAccountID;
@@ -120,7 +110,7 @@ bool CSVInterface::FindInCSV(std::string _CSVFilePath, long _bankAcctID, Account
                 userDataFound.m_dBalanceTotal = std::strtod(strReturnedData[6].c_str(), NULL) / 100.0;
                 userDataFound.m_dInterestRate = std::strtod(strReturnedData[7].c_str(), NULL);
 
-                _userDataFound = userDataFound;
+                *_userDataFound = userDataFound;
                 accountFound = true;
                 return accountFound;
                 break;

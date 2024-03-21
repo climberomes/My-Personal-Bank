@@ -20,7 +20,7 @@ enum AdminLevel
 {
 	ADMIN_LEVEL,			//Can do anything (Open Accounts as Admin)
 	BANKER_LEVEL,			//Can add/subtract balance, and view account details
-	MEMBER_LEVEL,			//Can View Account Info
+	USER_LEVEL,			//Can View Account Info
 	NONE_LEVEL				//Need to validate account to elevate privilege
 };
 

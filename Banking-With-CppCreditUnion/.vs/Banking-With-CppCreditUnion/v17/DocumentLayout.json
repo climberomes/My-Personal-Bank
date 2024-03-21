@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:AccountUserData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:BankDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:LevelUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelAdmin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:LevelAdmin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:Constants.h||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:AccountUserData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelBanker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:LevelBanker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:BankDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankOperations.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:BankOperations.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:FileNames.h||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:BankDialog.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelBanker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:LevelBanker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|solutionrelative:BankDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCB72ABF-602A-4E1E-A6F9-81152B56C6B4}|Banking-With-CppCreditUnion.vcxproj|C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\CSVInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,104 +54,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountUserData.h",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.h",
-              "RelativeDocumentMoniker": "AccountUserData.h",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.h",
-              "RelativeToolTip": "AccountUserData.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-21T20:55:44.287Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountUserData.cpp",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.cpp",
-              "RelativeDocumentMoniker": "AccountUserData.cpp",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\AccountUserData.cpp",
-              "RelativeToolTip": "AccountUserData.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T20:56:01.028Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Constants.h",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
-              "RelativeDocumentMoniker": "Constants.h",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
-              "RelativeToolTip": "Constants.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-21T20:59:20.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LevelBanker.cpp",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelBanker.cpp",
-              "RelativeDocumentMoniker": "LevelBanker.cpp",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelBanker.cpp",
-              "RelativeToolTip": "LevelBanker.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T20:48:54.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LevelAdmin.cpp",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelAdmin.cpp",
-              "RelativeDocumentMoniker": "LevelAdmin.cpp",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelAdmin.cpp",
-              "RelativeToolTip": "LevelAdmin.cpp",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwEkAAAAOAAAA",
+              "Title": "BankDialog.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h",
+              "RelativeDocumentMoniker": "BankDialog.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h",
+              "RelativeToolTip": "BankDialog.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-21T18:32:02.786Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankDialog.cpp",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp",
+              "RelativeDocumentMoniker": "BankDialog.cpp",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp",
+              "RelativeToolTip": "BankDialog.cpp",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAcwMAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T20:47:55.53Z",
+              "WhenOpened": "2024-03-21T18:01:26.244Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LevelUser.cpp",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelUser.cpp",
-              "RelativeDocumentMoniker": "LevelUser.cpp",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelUser.cpp",
-              "RelativeToolTip": "LevelUser.cpp",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T20:47:29.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FileNames.h",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h",
-              "RelativeDocumentMoniker": "FileNames.h",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\FileNames.h",
-              "RelativeToolTip": "FileNames.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
+              "RelativeDocumentMoniker": "Constants.h",
+              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\Constants.h",
+              "RelativeToolTip": "Constants.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-21T20:21:31.635Z",
+              "WhenOpened": "2024-03-21T21:28:05.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "BankOperations.h",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankOperations.h",
               "RelativeDocumentMoniker": "BankOperations.h",
@@ -188,33 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BankDialog.h",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h",
-              "RelativeDocumentMoniker": "BankDialog.h",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.h",
-              "RelativeToolTip": "BankDialog.h",
-              "ViewState": "AQIAAAoAAAAAAAAAAAD4vxUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-21T18:32:02.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BankDialog.cpp",
-              "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp",
-              "RelativeDocumentMoniker": "BankDialog.cpp",
-              "ToolTip": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\BankDialog.cpp",
-              "RelativeToolTip": "BankDialog.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T18:01:26.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "CSVInterface.h",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\CSVInterface.h",
               "RelativeDocumentMoniker": "CSVInterface.h",
@@ -227,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "CSVInterface.cpp",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\CSVInterface.cpp",
               "RelativeDocumentMoniker": "CSVInterface.cpp",
@@ -240,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "DisplayText.cpp",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\DisplayText.cpp",
               "RelativeDocumentMoniker": "DisplayText.cpp",
@@ -274,7 +172,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -287,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "LevelAdmin.h",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelAdmin.h",
               "RelativeDocumentMoniker": "LevelAdmin.h",
@@ -300,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "LevelBanker.h",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelBanker.h",
               "RelativeDocumentMoniker": "LevelBanker.h",
@@ -313,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "LevelUser.h",
               "DocumentMoniker": "C:\\1 - Omar Alhayek\\Personal\\My-Personal-Bank\\Banking-With-CppCreditUnion\\LevelUser.h",
               "RelativeDocumentMoniker": "LevelUser.h",

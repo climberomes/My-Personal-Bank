@@ -28,7 +28,7 @@ LevelUser::LevelUser(AccountUserData* _CurrentUser)
 
 LevelUser::~LevelUser()
 {
-	delete m_UserData;
+	//delete m_UserData;
 }
 
 /////////////////////////////

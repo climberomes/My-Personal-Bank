@@ -8,6 +8,12 @@
 //
 #include "BankDialog.h"
 
+//#include <queue>
+//#include <functional>
+//#include <cstdlib> // for std::atexit
+//
+//std::queue<std::function<void()>> functionQueue;
+
 using namespace std;
 
 //////////////////
@@ -164,7 +170,7 @@ void BankDialog::UserLevelAdminDialog()
 	{
 		cout << "Select Your Options Below" << endl;
 		cout << "1 - Create New Account" << endl;
-		cout << "2 - Find Account" << endl;
+		cout << "2 - Access Account" << endl;
 		cout << "9 - Admin Log Off" << endl;
 
 		switch ((short) CheckUserInput())
@@ -178,7 +184,14 @@ void BankDialog::UserLevelAdminDialog()
 			cout << "Insert Account Number To Find" << endl;
 			acctNum = CheckUserInput();
 			validResponse = interfaceCSV.FindInCSV((DATA_FOLDER + ACCOUNT_DATA_FILE), acctNum, currentAccountData);
-			if (!validResponse) { cout << "Account Not Found!" << endl << endl;}
+			if (!validResponse) 
+			{ 
+				cout << "Account Not Found!" << endl << endl;
+			}
+			else
+			{
+				return CreateAccountDialog();
+			}
 			break;
 		case 9:
 			m_enumUserLevel = NONE_LEVEL;
@@ -198,7 +211,7 @@ void BankDialog::CreateAccountDialog()
 
 	do
 	{
-		cout << "Select Option To Change Account Information" << endl;
+		cout << "Select Option For Your Account" << endl;
 		cout << "1 - Set Account ID" << endl;
 		cout << "2 - Set Name" << endl;
 		cout << "3 - Set DOB" << endl;
@@ -206,7 +219,8 @@ void BankDialog::CreateAccountDialog()
 		cout << "5 - Set Account Type" << endl;
 		cout << "6 - Set Account Balance" << endl;
 		cout << "7 - Set Interest Rate" << endl;
-		cout << "9 - Save Account To Database" << endl;
+		cout << "8 - Save Account To Database" << endl;
+		cout << "9 - More Options..." << endl;
 
 		switch ((short) CheckUserInput())
 		{
@@ -232,8 +246,9 @@ void BankDialog::CreateAccountDialog()
 			validResponse = true;
 			break;
 		case 9:
-			m_enumUserLevel = NONE_LEVEL;
+			//m_enumUserLevel = NONE_LEVEL;
 			validResponse = true;
+			return UserLevelBankerDialog();
 			break;
 		default:
 			cout << "Invalid Option!" << endl;

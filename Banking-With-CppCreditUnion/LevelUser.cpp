@@ -18,7 +18,7 @@ LevelUser::LevelUser(AccountUserData* _CurrentUser)
 {
 	if(_CurrentUser == NULL)
 	{
-		*m_UserData = { -1, "EMPTY", "EMPTY", "mm/dd/yyyy", "mm/dd/yyyy", INVALID, 0.0, 0.0 };
+		m_UserData = new AccountUserData();;
 	}
 	else
 	{

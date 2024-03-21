@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AccountUserData.h" />
     <ClInclude Include="BankDialog.h" />
     <ClInclude Include="BankOperations.h" />
     <ClInclude Include="Constants.h" />
@@ -139,6 +140,7 @@
     <ClInclude Include="LevelUser.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AccountUserData.cpp" />
     <ClCompile Include="BankDialog.cpp" />
     <ClCompile Include="BankOperations.cpp" />
     <ClCompile Include="CSVInterface.cpp" />

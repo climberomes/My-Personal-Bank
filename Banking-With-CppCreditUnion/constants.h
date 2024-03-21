@@ -1,19 +1,10 @@
 #pragma once
 #include <string>
+#include "AccountUserData.h"
 
 #define USHORT unsigned short
 #define ACCOUNT_TYPE_CAST(value) static_cast<AccountType>(value)		//static_cast<AccountType>((int)1)
 #define ADMIN_LEVEL_CAST(value) static_cast<AdminLevel>(value)			//static_cast<AdminLevel>((int)1)
-
-// Define a Enumeration for Account Types
-enum AccountType {
-	INVALID,
-	CHECKING,
-	SAVINGS,
-	CREDIT_CARD,
-	PERSONAL_LOAN,
-	STUDENT_LOAN
-};
 
 
 enum AdminLevel
@@ -22,18 +13,6 @@ enum AdminLevel
 	BANKER_LEVEL,			//Can add/subtract balance, and view account details
 	USER_LEVEL,			//Can View Account Info
 	NONE_LEVEL				//Need to validate account to elevate privilege
-};
-
-struct AccountUserData
-{
-	long			m_lBankAccountID;
-	std::string		m_sFirstName;
-	std::string		m_sLastName;
-	std::string		m_sDOB;
-	std::string		m_sAccountOpenDate;
-	AccountType		m_enumAccountType;
-	double			m_dBalanceTotal;
-	double			m_dInterestRate;
 };
 
 const int ACCOUNT_USER_DATA_SIZE = 8;
